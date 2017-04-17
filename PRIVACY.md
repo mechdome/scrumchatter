@@ -26,8 +26,8 @@ More questions?
 ---------------
 If you're interested in how Scrum Chatter works, feel free to
 
-* browse the source code: https://github.com/caarmen/scrum-chatter
-* submit an issue: https://github.com/caarmen/scrum-chatter/issues
+* browse the source code: https://github.com/mechdome/scrumchatter
+* submit an issue: https://github.com/mechdome/scrumchatter/issues
 
 Scrum Chatter is a completely free and open-source app, developed as a hobby on free time by one developer. The developer makes no money off this app, and has zero interest in your personal data.
 
