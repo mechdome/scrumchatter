@@ -84,4 +84,10 @@
         app:showAsAction="never"
         android:title="@string/about"/>
 
+    <item
+        android:id="@+id/action_about_mechdome"
+        android:orderInCategory="140"
+        app:showAsAction="never"
+        android:title="@string/about_mechdome"/>
+
 </menu>

@@ -112,6 +112,8 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
+        <meta-data android:name="md_remove_ads" android:value="ca.rmen.android.scrumchatter.MechDomeAd" />
     </application>
 
 </manifest>

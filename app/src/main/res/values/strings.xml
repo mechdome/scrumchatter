@@ -85,6 +85,7 @@
     <string name="import_result_failed">Import failed</string>
     <string name="import_result_no_file">No file selected for import</string>
     <string name="about">About</string>
+    <string name="about_mechdome">About Mechdome</string>
     <string name="about_author">By Carmen Alvarez</string>
     <string name="about_version">v</string>
     <string name="about_source_text">Source code on GitHub:</string>

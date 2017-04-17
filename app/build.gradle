@@ -44,7 +44,7 @@ android {
         applicationId "ca.rmen.android.scrumchatter"
         versionCode 10603
         versionName "1.6.3"
-        minSdkVersion 9
+        minSdkVersion 16
         targetSdkVersion 25
         return true; // Avoid "Not all execution paths return a value"
     }
@@ -69,6 +69,7 @@ dependencies {
     compile "io.reactivex.rxjava2:rxjava:2.0.8"
     compile "io.reactivex.rxjava2:rxandroid:2.0.1"
     compile 'org.apmem.tools:layouts:1.10@aar'
+    compile 'com.mechdome:MechDome-About:+'
 }
 
 // Only show real releases with the ben-manes plugin.

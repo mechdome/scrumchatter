@@ -34,12 +34,7 @@
         android:id="@+id/action_team_delete"
         app:showAsAction="never"
         android:title="@string/action_team_delete"/>
-    <item
-        android:id="@+id/action_import"
-        android:icon="@drawable/ic_action_import"
-        android:orderInCategory="120"
-        app:showAsAction="ifRoom"
-        android:title="@string/action_import"/>
+
     <item
         android:id="@+id/action_charts"
         android:orderInCategory="122"
@@ -55,5 +50,11 @@
         android:orderInCategory="130"
         app:showAsAction="never"
         android:title="@string/about"/>
+
+    <item
+        android:id="@+id/action_about_mechdome"
+        android:orderInCategory="140"
+        app:showAsAction="never"
+        android:title="@string/about_mechdome"/>
 
 </menu>

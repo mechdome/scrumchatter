@@ -77,7 +77,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:text="@string/about_author" />
+                    android:text="By MechDome, Inc" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -193,7 +193,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:autoLink="web"
-                    android:text="@string/about_source_link" />
+                    android:text="https://github.com/mechdome/scrumchatter" />
             </LinearLayout>
         </ScrollView>
 

@@ -43,6 +43,8 @@ import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.mechdome.aboutmechdome.AboutMechDomeActivity;
+
 import java.util.Arrays;
 
 import ca.rmen.android.scrumchatter.Constants;
@@ -272,9 +274,9 @@ public class MainActivity extends AppCompatActivity implements DialogButtonListe
             case R.id.action_team_delete:
                 mTeams.confirmDeleteTeam(mTeam);
                 return true;
-            case R.id.action_import:
-                startFileChooser();
-                return true;
+//            case R.id.action_import:
+//                startFileChooser();
+//                return true;
             case R.id.action_charts:
                 startActivity(new Intent(this, ChartsActivity.class));
                 return true;
@@ -290,6 +292,11 @@ public class MainActivity extends AppCompatActivity implements DialogButtonListe
             case R.id.action_about:
                 Intent aboutIntent = new Intent(this, AboutActivity.class);
                 startActivity(aboutIntent);
+                return true;
+
+            case R.id.action_about_mechdome:
+                Intent aboutMDIntent = new Intent(this, AboutMechDomeActivity.class);
+                startActivity(aboutMDIntent);
                 return true;
         }
         super.onOptionsItemSelected(item);
